@@ -95,7 +95,6 @@ This Document guides you through the process of setting up an Amazon API Gateway
             }
         }
     }
-    ```
 4. Verify the item in DynamoDB console.
 
 ## Cleanup
