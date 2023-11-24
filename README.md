@@ -101,3 +101,6 @@ This Document guides you through the process of setting up an Amazon API Gateway
 1. Delete the DynamoDB table from the DynamoDB console.
 2. Delete the Lambda function from the Lambda console.
 3. Delete the API from the API Gateway console.
+# Congratulations!
+
+🎉 **You have successfully created a serverless API with AWS Lambda, API Gateway, and DynamoDB!** 🚀
