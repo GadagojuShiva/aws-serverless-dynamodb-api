@@ -83,6 +83,20 @@ This Document guides you through the process of setting up an Amazon API Gateway
 ## Run the Solution
 1. Obtain the API endpoint URL from the "Stages" screen.
 2. Use Postman to execute the API using a sample JSON payload for the create operation.
+3. Execute the provided JSON for DynamoDB create operation through Postman using the generated API Invoke URL.
+    ```json
+{
+    "operation": "create",
+    "tableName": "lambda-apigateway",
+    "payload": {
+        "Item": {
+            "id": "1234ABCD",
+            "number": 5
+        }
+    }
+}
+    ```
+4. Verify the item in DynamoDB console.
 
 ## Cleanup
 1. Delete the DynamoDB table from the DynamoDB console.
