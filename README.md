@@ -2,7 +2,8 @@
 
 ## Overview
 This Document guides you through the process of setting up an Amazon API Gateway, a Lambda function, and a DynamoDB table. The API supports various DynamoDB operations and includes testing methods. The Lambda function is integrated with the API Gateway, allowing you to perform CRUD operations on a DynamoDB table.
-
+## Architecture
+![Alt Text](assets/High-Level-Architecture.jpg)
 ## Setup
 
 ### Create Lambda IAM Role
